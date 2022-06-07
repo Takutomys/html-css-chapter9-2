@@ -14,7 +14,7 @@ main {
   width: 960px;
   margin: 50px auto;
   display: flex;
-  
+
 }
 
 h3 {
@@ -58,7 +58,7 @@ h3 {
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
-  
+
 }
 
 .step2 {
@@ -67,8 +67,8 @@ h3 {
   top: 0;
   left: 0;
   background-color: #ff9a4b;
-  
-} 
+
+}
 
 .box3 {
   background-color: #eeeeee;
@@ -91,7 +91,7 @@ h3 {
   top: 0;
   left: 0;
   background-color: #ff9a4b;
-  
+
 }
 
 footer {
@@ -99,6 +99,40 @@ footer {
   height: 50px;
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width: 768px) {
+
+ header {
+   width: 100%;
+ }
+
+ main {
+   width: 100%;
+   display: block;
+ }
+
+ .box1 {
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 20px;
+
+ }
+
+ .box2 {
+   width: 90%;
+   margin: 0 auto;
+   margin-bottom: 20px;
+ }
+
+ .box3 {
+   width: 90%;
+   margin: 0 auto;
+   }
+
+}
+
+
+
 
 
 
