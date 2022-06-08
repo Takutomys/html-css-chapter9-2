@@ -108,6 +108,7 @@ footer {
 
  main {
    width: 100%;
+   margin-top: 50px;
    display: block;
  }
 
@@ -115,21 +116,35 @@ footer {
    width: 90%;
    margin: 0 auto;
    margin-bottom: 20px;
+   padding: 10px;
 
  }
+
+
 
  .box2 {
    width: 90%;
    margin: 0 auto;
    margin-bottom: 20px;
+   padding: 10px;
  }
+
+
 
  .box3 {
    width: 90%;
    margin: 0 auto;
-   }
+   padding: 10px;
+}
 
 }
+
+
+
+
+
+
+
 
 
 
